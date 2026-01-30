@@ -1,0 +1,1369 @@
+{
+    "Linux commands": [
+        {
+            "command": "ls",
+            "description": "Lists files and directories in the current directory."
+        },
+        {
+            "command": "cd",
+            "description": "Changes the current directory to the specified directory."
+        },
+        {
+            "command": "pwd",
+            "description": "Prints the current working directory."
+        },
+        {
+            "command": "mkdir",
+            "description": "Creates a new directory with the specified name."
+        },
+        {
+            "command": "rm",
+            "description": "Removes files or directories."
+        },
+        {
+            "command": "cp",
+            "description": "Copies files or directories from one location to another."
+        },
+        {
+            "command": "mv",
+            "description": "Moves or renames files or directories."
+        },
+        {
+            "command": "touch",
+            "description": "Creates an empty file or updates the timestamp of an existing file."
+        },
+        {
+            "command": "cat",
+            "description": "Displays the contents of a file."
+        },
+        {
+            "command": "grep",
+            "description": "Searches for a specific pattern in files."
+        }
+    ],
+    "Python commands": [
+        {
+            "command": "print()",
+            "description": "Outputs text or variables to the console."
+        },
+        {
+            "command": "def",
+            "description": "Defines a function."
+        },
+        {
+            "command": "import",
+            "description": "Imports modules or specific functions from modules."
+        },
+        {
+            "command": "if, elif, else",
+            "description": "Used for conditional statements."
+        },
+        {
+            "command": "for",
+            "description": "Creates a loop that iterates over a sequence."
+        },
+        {
+            "command": "while",
+            "description": "Creates a loop that continues as long as a condition is true."
+        },
+        {
+            "command": "class",
+            "description": "Defines a class for object-oriented programming."
+        },
+        {
+            "command": "try, except",
+            "description": "Handles exceptions and errors in code."
+        },
+        {
+            "command": "with",
+            "description": "Simplifies exception handling by encapsulating common preparation and cleanup tasks."
+        },
+        {
+            "command": "lambda",
+            "description": "Creates small anonymous functions."
+        }
+    ],
+    "Technical terms": [
+        {
+            "term": "Git and Github",
+            "description": "Git is a distributed version control system used to track changes in source code during software development. GitHub is a web-based platform that hosts Git repositories and provides collaboration features for developers."
+        },
+        {
+            "term": "HTTP (Hypertext Transfer Protocol)",
+            "description": "The protocol used for transmitting hypertext requests and information on the internet."
+        },
+        {
+            "term":"Route and route params",
+            "description": "A route is a URL pattern that maps to a handler function. Route parameters are named URL segments that are used to capture values from the URL path."
+        },
+        {
+            "term": "API (Application Programming Interface)",
+            "description": "A set of rules and protocols for building and interacting with software applications."
+        },
+        {
+            "term": "Database",
+            "description": "An organized collection of data that can be easily accessed, managed, and updated."
+        },
+        {
+            "term": "Server",
+            "description": "A computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network."
+        },
+        {
+            "term": "Frontend",
+            "description": "The part of a web application that users interact with directly, typically built using HTML, CSS, and JavaScript."
+        },
+        {
+            "term": "Backend",
+            "description": "The server-side part of a web application that handles business logic, database interactions, and server configuration."
+        },
+        {
+            "term": "Framework",
+            "description": "A pre-built collection of code that provides a structure for developing applications more efficiently."
+        },
+        {
+            "term": "Version Control",
+            "description": "A system that records changes to files over time so that specific versions can be recalled later."
+        },
+        {
+            "term": "Middleware",
+            "description": "Software that acts as a bridge between an operating system or database and applications, especially on a network."
+        },
+        {
+            "term": "REST (Representational State Transfer)",
+            "description": "An architectural style for designing networked applications using stateless communication and standard HTTP methods."
+        },
+        {
+            "term": "JSON (JavaScript Object Notation)",
+            "description": "A lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate."
+        },
+        {
+            "term": "Containerization",
+            "description": "A lightweight form of virtualization that allows applications to run in isolated environments called containers."
+        },
+        {
+            "term": "Microservices",
+            "description": "An architectural style that structures an application as a collection of small, loosely coupled services that communicate over a network."
+        },
+        {
+            "term": "CI/CD (Continuous Integration/Continuous Deployment)",
+            "description": "A set of practices that enable development teams to deliver code changes more frequently and reliably through automated testing and deployment."
+        },
+        {
+            "term": "Scalability",
+            "description": "The ability of a system to handle increased load by adding resources, either vertically (adding more power to existing machines) or horizontally (adding more machines)."
+        },
+        {
+            "term": "Load Balancer",
+            "description": "A device or software that distributes network or application traffic across multiple servers to ensure reliability and performance."
+        },
+        {
+            "term": "Caching",
+            "description": "The process of storing frequently accessed data in a temporary storage area to improve performance and reduce latency."
+        },
+        {
+            "term": "OAuth",
+            "description": "An open standard for access delegation commonly used for token-based authentication and authorization on the internet."
+        },
+        {
+            "term": "Authentication vs Authorization",
+            "description 1": "Authentication is the process of verifying the identity of a user, while authorization is the process of determining what resources a user has access to.",
+            "description 2":"Authorization is the process of determining what resources a user has access to."
+        },
+        {
+            "term": "WebSocket",
+            "description": "A protocol that provides full-duplex communication channels over a single TCP connection, commonly used for real-time applications."
+        },
+        {
+            "term": "GraphQL",
+            "description": "A query language for APIs and a runtime for executing those queries by allowing clients to request only the data they need."
+        },
+        {
+            "term": "DevOps",
+            "description": "A set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously."
+        },
+        {
+            "term": "Serverless Computing",
+            "description": "A cloud computing execution model where the cloud provider dynamically manages the allocation of machine resources, allowing developers to focus on writing code without managing servers."
+        },        {
+            "term": "API Gateway",
+            "description": "A server that acts as an API front-end, receiving API requests, enforcing throttling and security policies, passing requests to the back-end service, and then passing the response back to the requester."
+        },
+        {
+            "term": "ORM (Object-Relational Mapping)",
+            "description": "A programming technique for converting data between incompatible type systems using object-oriented programming languages."
+        },
+        {
+            "term":"API endpoints",
+            "description":"Specific paths or URLs where an API can be accessed by a client application."
+        },
+        {
+            "term":"No SQL Database",
+            "description":"A type of database that provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases."
+        },
+        {
+            "term":"SQL Database",
+            "description":"A type of database that uses structured query language (SQL) for defining and manipulating data."
+        },
+        {
+            "term":"Web Framework",
+            "description":"A software framework that is designed to support the development of web applications including web services, web resources, and web APIs."
+        },
+        {
+            "term":"Express.js",
+            "description":"A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
+        },
+        {
+            "term":"Django",
+            "description":"A high-level Python web framework that encourages rapid development and clean, pragmatic design."
+        },
+        {
+            "term":"Flask",
+            "description":"A lightweight WSGI(Web Server Gateway Interface) web application framework in Python. It is designed with simplicity and flexibility in mind."
+        },
+        {
+            "term":"Ruby on Rails",
+            "description":"A server-side web application framework written in Ruby under the MIT License. It is a model-view-controller (MVC) framework, providing default structures for a database, a web service, and web pages."
+        },
+        {
+            "term":"Restful API",
+            "description":"An API that follows the principles of REST (Representational State Transfer), using standard HTTP methods like GET, POST, PUT, and DELETE to perform operations on resources."
+        },
+        {
+            "term":"MVC (Model-View-Controller)",
+            "description":"A software architectural pattern for implementing user interfaces that divides an application into three interconnected components: Model, View, and Controller."
+        }
+    ],
+    "Git commands": [
+        {
+            "command": "git init",
+            "description": "Initializes a new Git repository."
+        },
+        {
+            "command": "git clone",
+            "description": "Creates a copy of an existing Git repository."
+        },
+        {
+            "command": "git add",
+            "description": "Stages changes for the next commit."
+        },
+        {
+            "command": "git commit",
+            "description": "Records staged changes to the repository."
+        },
+        {
+            "command": "git status",
+            "description": "Displays the state of the working directory and staging area."
+        },
+        {
+            "command": "git push",
+            "description": "Uploads local repository content to a remote repository."
+        },
+        {
+            "command": "git pull",
+            "description": "Fetches and integrates changes from a remote repository into the current branch."
+        },
+        {
+            "command": "git branch",
+            "description": "Lists, creates, or deletes branches."
+        },
+        {
+            "command": "git checkout",
+            "description": "Switches branches or restores working tree files."
+        },
+        {
+            "command": "git merge",
+            "description": "Combines changes from one branch into another."
+        }
+    ],
+    "Web Protocols": [
+        {
+            "protocol": "HTTP",
+            "description": "Hypertext Transfer Protocol, the foundation of data communication on the web."
+        },
+        {
+            "protocol": "HTTPS",
+            "description": "Secure version of HTTP that uses encryption for secure communication over a computer network."
+        },
+        {
+            "protocol": "FTP",
+            "description": "File Transfer Protocol, used for transferring files between a client and server on a computer network."
+        },
+        {
+            "protocol": "SMTP",
+            "description": "Simple Mail Transfer Protocol, used for sending emails across networks."
+        },
+        {
+            "protocol": "TCP/IP",
+            "description": "Transmission Control Protocol/Internet Protocol, the suite of communication protocols used to interconnect network devices on the internet."
+        },
+        {
+            "protocol": "WebSocket",
+            "description": "A protocol providing full-duplex communication channels over a single TCP connection, commonly used for real-time applications."
+        },
+        {
+            "protocol": "REST",
+            "description": "Representational State Transfer, an architectural style for designing networked applications using stateless communication and standard HTTP methods."
+        },
+        {
+            "protocol": "GraphQL",
+            "description": "A query language for APIs and a runtime for executing those queries by allowing clients to request only the data they need."
+        },
+        {
+            "protocol": "UDP",
+            "description": "User Datagram Protocol, a communication protocol that is primarily used for establishing low-latency and loss-tolerating connections between applications on the internet."
+        },
+        {
+            "protocol": "SSH",
+            "description": "Secure Shell, a cryptographic network protocol for operating network services securely over an unsecured network."
+        },
+        {
+            "protocol": "DNS",
+            "description": "Domain Name System, a hierarchical and decentralized naming system for computers, services, or other resources connected to the internet."
+        }
+    ],
+    "OSI Model Layers": [
+        {
+            "layer": "Physical Layer",
+            "description": "The lowest layer of the OSI model, responsible for the physical connection between devices and the transmission of raw bitstreams over a physical medium."
+        },
+        {
+            "layer": "Data Link Layer",
+            "description": "The second layer of the OSI model, responsible for node-to-node data transfer and error detection and correction."
+        },
+        {
+            "layer": "Network Layer",
+            "description": "The third layer of the OSI model, responsible for routing, forwarding, and addressing packets across networks."
+        },
+        {
+            "layer": "Transport Layer",
+            "description": "The fourth layer of the OSI model, responsible for end-to-end communication, error recovery, and flow control."
+        },
+        {
+            "layer": "Session Layer",
+            "description": "The fifth layer of the OSI model, responsible for establishing, managing, and terminating sessions between applications."
+        },
+        {
+            "layer": "Presentation Layer",
+            "description": "The sixth layer of the OSI model, responsible for data translation, encryption, and compression."
+        },
+        {
+            "layer": "Application Layer",
+            "description": "The seventh and highest layer of the OSI model, responsible for providing network services directly to end-user applications."
+        },
+        {
+        "Protocols that operate on this OSI model": [
+            {
+                "protocol": "HTTP",
+                "layer": "Application Layer"
+            },
+            {
+                "protocol": "FTP",
+                "layer": "Application Layer"
+            },
+            {
+                "protocol": "SMTP",
+                "layer": "Application Layer"
+            },
+            {
+                "protocol": "TCP",
+                "layer": "Transport Layer"
+            },
+            {
+                "protocol": "UDP",
+                "layer": "Transport Layer"
+            },
+            {
+                "protocol": "IP",
+                "layer": "Network Layer"
+            },
+            {
+                "protocol": "Ethernet",
+                "layer": "Data Link Layer"
+            },
+            {
+                "protocol": "Wi-Fi",
+                "layer": "Data Link Layer"
+            }
+        ]
+    }
+    ],
+    "TCP/IP Model Layers": [
+        {
+            "layer": "Network Interface Layer",
+            "description": "The lowest layer of the TCP/IP model, responsible for the physical transmission of data over a network."
+        },
+        {
+            "layer": "Internet Layer",
+            "description": "The second layer of the TCP/IP model, responsible for routing and addressing packets across networks."
+        },
+        {
+            "layer": "Transport Layer",
+            "description": "The third layer of the TCP/IP model, responsible for end-to-end communication, error recovery, and flow control."
+        },
+        {
+            "layer": "Application Layer",
+            "description": "The highest layer of the TCP/IP model, responsible for providing network services directly to end-user applications."
+        },
+        {
+        "Protocols that operate on this TCP/IP model": [
+            {
+                "protocol": "HTTP",
+                "layer": "Application Layer"
+            },
+            {
+                "protocol": "FTP",
+                "layer": "Application Layer"
+            },
+            {
+                "protocol": "SMTP",
+                "layer": "Application Layer"
+            },
+            {
+                "protocol": "TCP",
+                "layer": "Transport Layer"
+            },
+            {
+                "protocol": "UDP",
+                "layer": "Transport Layer"
+            },
+            {
+                "protocol": "IP",
+                "layer": "Internet Layer"
+            },
+            {
+                "protocol": "Ethernet",
+                "layer": "Network Interface Layer"
+            },
+            {
+                "protocol": "Wi-Fi",
+                "layer": "Network Interface Layer"
+            }
+        ]
+    }
+    ],
+    "Docker commands": [
+        {
+            "command": "docker run",
+            "description": "Runs a container from a Docker image."
+        },
+        {
+            "command": "docker build",
+            "description": "Builds a Docker image from a Dockerfile."
+        },
+        {
+            "command": "docker ps",
+            "description": "Lists running containers."
+        },
+        {
+            "command": "docker stop",
+            "description": "Stops a running container."
+        },
+        {
+            "command": "docker rm",
+            "description": "Removes a container."
+        },
+        {
+            "command": "docker rmi",
+            "description": "Removes a Docker image."
+        },
+        {
+            "command": "docker pull",
+            "description": "Downloads a Docker image from a registry."
+        },
+        {
+            "command": "docker push",
+            "description": "Uploads a Docker image to a registry."
+        },
+        {
+            "command": "docker exec",
+            "description": "Runs a command in a running container."
+        },
+        {
+            "command": "docker logs",
+            "description": "Fetches the logs of a container."
+        }
+    ],
+    "HTTP Status Codes": [
+        {
+            "code": 200,
+            "description": "OK - The request has succeeded."
+        },
+        {
+            "code": 201,
+            "description": "Created - The request has been fulfilled and resulted in a new resource being created."
+        },
+        {
+            "code": 204,
+            "description": "No Content - The server successfully processed the request, but is not returning any content."
+        },
+        {
+            "code": 400,
+            "description": "Bad Request - The server could not understand the request due to invalid syntax."
+        },
+        {
+            "code": 401,
+            "description": "Unauthorized - The client must authenticate itself to get the requested response."
+        },
+        {
+            "code": 403,
+            "description": "Forbidden - The client does not have access rights to the content."
+        },
+        {
+            "code": 404,
+            "description": "Not Found - The server can not find the requested resource."
+        },
+        {
+            "code": 500,
+            "description": "Internal Server Error - The server has encountered a situation it doesn't know how to handle."
+        },
+        {
+            "code": 502,
+            "description": "Bad Gateway - The server was acting as a gateway or proxy and received an invalid response from the upstream server."
+        },
+        {
+            "code": 503,
+            "description": "Service Unavailable - The server is not ready to handle the request, often due to maintenance or overload."
+        }
+    ],
+    "HTTP Methods": [
+        {
+            "method": "GET",
+            "description": "Requests data from a specified resource."
+        },
+        {
+            "method": "POST",
+            "description": "Submits data to be processed to a specified resource."
+        },
+        {
+            "method": "PUT",
+            "description": "Updates a current resource with new data."
+        },
+        {
+            "method": "DELETE",
+            "description": "Deletes the specified resource."
+        },
+        {
+            "method": "PATCH",
+            "description": "Applies partial modifications to a resource."
+        },
+        {
+            "method": "HEAD",
+            "description": "Similar to GET but returns only the headers and no body."
+        },
+        {
+            "method": "OPTIONS",
+            "description": "Describes the communication options for the target resource."
+        },
+        {
+            "method": "CONNECT",
+            "description": "Establishes a tunnel to the server identified by the target resource."
+        },
+        {
+            "method": "TRACE",
+            "description": "Performs a message loop-back test along the path to the target resource."
+        }
+    ],
+    "HTTP Headers": [
+        {
+            "header": "Content-Type",
+            "description": "Indicates the media type of the resource or the data being sent."
+        },
+        {
+            "header": "Authorization",
+            "description": "Contains credentials for authenticating the client to the server."
+        },
+        {
+            "header": "User-Agent",
+            "description": "Contains information about the user agent (browser) making the request."
+        },
+        {
+            "header": "Accept",
+            "description": "Specifies the media types that are acceptable for the response."
+        },
+        {
+            "header": "Cache-Control",
+            "description": "Directives for caching mechanisms in both requests and responses."
+        },
+        {
+            "header": "Host",
+            "description": "Specifies the domain name of the server and the TCP port number on which the server is listening."
+        },
+        {
+            "header": "Cookie",
+            "description": "Sends stored cookies from the client to the server."
+        },
+        {
+            "header": "Set-Cookie",
+            "description": "Sets a cookie from the server to be stored on the client."
+        },
+        {
+            "header": "Referer",
+            "description": "Indicates the address of the previous web page from which a link to the currently requested page was followed."
+        },
+        {
+            "header": "Content-Length",
+            "description": "Indicates the size of the request or response body in bytes."
+        }
+    ],
+    "HTTP Cookies": [
+        {
+            "term": "Session Cookie",
+            "description": "A temporary cookie that is deleted when the user closes their browser."
+        },
+        {
+            "term": "Persistent Cookie",
+            "description": "A cookie that is stored on the client's device for a specified period of time, even after the browser is closed."
+        },
+        {
+            "term": "Secure Cookie",
+            "description": "A cookie that is only sent over secure HTTPS connections."
+        },
+        {
+            "term": "HttpOnly Cookie",
+            "description": "A cookie that cannot be accessed through client-side scripts, providing protection against cross-site scripting (XSS) attacks."
+        },
+        {
+            "term": "SameSite Cookie",
+            "description": "A cookie attribute that helps prevent cross-site request forgery (CSRF) attacks by controlling whether cookies are sent with cross-site requests."
+        }
+    ],
+    "JSON concepts": [
+        {
+            "term": "Object",
+            "description": "A collection of key-value pairs, where keys are strings and values can be any valid JSON data type."
+        },
+        {
+            "term": "Array",
+            "description": "An ordered list of values, which can be of any valid JSON data type."
+        },
+        {
+            "term": "String",
+            "description": "A sequence of characters enclosed in double quotes."
+        },
+        {
+            "term": "Number",
+            "description": "A numeric value, which can be an integer or a floating-point number."
+        },
+        {
+            "term": "Boolean",
+            "description": "A data type that can have one of two values: true or false."
+        },
+        {
+            "term": "Null",
+            "description": "A special value that represents the absence of a value."
+        },
+        {
+            "term": "Serialization",
+            "description": "The process of converting a data structure or object into a format that can be easily stored or transmitted, such as JSON."
+        },
+        {
+            "term": "Deserialization",
+            "description": "The process of converting JSON data back into a data structure or object."
+        },
+        {
+            "term":"Parsing",
+            "description":"The process of analyzing a string of JSON data to convert it into a usable data structure."
+        }
+    ],
+    "JS commands": [
+        {
+            "command": "console.log()",
+            "description": "Outputs messages to the web console."
+        },
+        {
+            "command": "document.getElementById()",
+            "description": "Selects an HTML element by its ID."
+        },
+        {
+            "command": "addEventListener()",
+            "description": "Attaches an event handler to an element."
+        },
+        {
+            "command": "fetch()",
+            "description": "Makes network requests and returns a promise that resolves to the response."
+        },
+        {
+            "command": "setTimeout()",
+            "description": "Executes a function after a specified delay."
+        },
+        {
+            "command": "setInterval()",
+            "description": "Repeatedly executes a function at specified intervals."
+        },
+        {
+            "command": "JSON.parse()",
+            "description": "Parses a JSON string and converts it into a JavaScript object."
+        },
+        {
+            "command": "JSON.stringify()",
+            "description": "Converts a JavaScript object into a JSON string."
+        },
+        {
+            "command": "Array.prototype.map()",
+            "description": "Creates a new array populated with the results of calling a provided function on every element in the calling array."
+        },
+        {
+            "command": "Array.prototype.filter()",
+            "description": "Creates a new array with all elements that pass the test implemented by the provided function."
+        }
+    ],
+    "JS functions---Array methods": [
+        {
+            "function": "map()",
+            "description": "Creates a new array populated with the results of calling a provided function on every element in the calling array."
+        },
+        {
+            "function": "filter()",
+            "description": "Creates a new array with all elements that pass the test implemented by the provided function."
+        },
+        {
+            "function": "reduce()",
+            "description": "Executes a reducer function on each element of the array, resulting in a single output value."
+        },
+        {
+            "function": "forEach()",
+            "description": "Executes a provided function once for each array element."
+        },
+        {
+            "function": "find()",
+            "description": "Returns the value of the first element in the array that satisfies the provided testing function."
+        },
+        {
+            "function": "slice()",
+            "description": "Returns a shallow copy of a portion of an array into a new array object."
+        },
+        {
+            "function": "splice()",
+            "description": "Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place."
+        },
+        {
+            "function": "concat()",
+            "description": "Merges two or more arrays and returns a new array."
+        },
+        {
+            "function": "includes()",
+            "description": "Determines whether an array includes a certain value among its entries, returning true or false as appropriate."
+        },
+        {
+            "function": "indexOf()",
+            "description": "Returns the first index at which a given element can be found in the array, or -1 if it is not present."
+        },
+        {
+            "function": "sort()",
+            "description": "Sorts the elements of an array in place and returns the sorted array."
+        },
+        {
+            "function": "push()",
+            "description": "Adds one or more elements to the end of an array and returns the new length of the array."
+        },
+        {
+            "function": "pop()",
+            "description": "Removes the last element from an array and returns that element."
+        },
+        {
+            "function": "shift()",
+            "description": "Removes the first element from an array and returns that element."
+        },
+        {            "function": "unshift()",
+            "description": "Adds one or more elements to the beginning of an array and returns the new length of the array."
+        },
+        {
+            "function": "join()",
+            "description": "Joins all elements of an array into a string and returns this string."
+        },
+        {
+            "function": "reduce()",
+            "description": "Executes a reducer function on each element of the array, resulting in a single output value."
+        },
+        {
+            "function": "access()",
+            "description": "Accesses elements in an array using their index."
+        },
+        {
+            "function": "transform()",
+            "description":"Applies a function to each element in the array to create a new array with transformed elements."
+        },
+        {
+            "function": "clone()",
+            "description":"Creates a shallow copy of an array."
+        }
+
+    ],
+    "Node.js commands": [
+        {
+            "command": "npm init",
+            "description": "Initializes a new Node.js project and creates a package.json file."
+        },
+        {
+            "command": "npm install",
+            "description": "Installs a package and its dependencies."
+        },
+        {
+            "command": "node filename.js",
+            "description": "Runs a Node.js application from the specified JavaScript file."
+        },
+        {
+            "command": "npm start",
+            "description": "Starts the application as defined in the package.json file."
+        },
+        {
+            "command": "npm test",
+            "description": "Runs the test script defined in the package.json file."
+        },
+        {
+            "command": "npm update",
+            "description": "Updates all the packages to their latest versions based on the version ranges specified in package.json."
+        },
+        {
+            "command": "npm uninstall",
+            "description": "Removes a package from the node_modules directory and updates package.json."
+        },
+        {
+            "command": "node -v",
+            "description": "Displays the current version of Node.js installed."
+        },
+        {
+            "command": "npm -v",
+            "description": "Displays the current version of npm installed."
+        },
+        {
+            "command": "npx",
+            "description": "Executes a package without installing it globally."
+        }
+    ],
+    "JS Promise/asynchronous concepts": [
+        {
+            "term": "Promise",
+            "description": "An object representing the eventual completion or failure of an asynchronous operation."
+        },
+        {
+            "term": "async/await",
+            "description": "Syntax for writing asynchronous code in a more synchronous manner, making it easier to read and maintain."
+        },
+        {
+            "term": "Callback",
+            "description": "A function passed as an argument to another function, which is executed after the completion of an asynchronous operation."
+        },
+        {
+            "term": "Event Loop",
+            "description": "A mechanism that handles asynchronous callbacks in JavaScript, allowing non-blocking operations."
+        },
+        {
+            "term": "Microtask Queue",
+            "description": "A queue that holds tasks that need to be executed after the current operation completes but before the next event loop iteration."
+        },
+        {
+            "term": "microtask Queue",
+            "description": "A queue that holds tasks that are scheduled to be executed in the next event loop iteration."
+        },
+        {
+            "term": "Chaining",
+            "description": "The process of linking multiple promises together, where the output of one promise is passed as input to the next."
+        },
+        {
+            "term": "Error Handling",
+            "description": "The process of managing errors in asynchronous code, often using .catch() for promises or try/catch blocks with async/await."
+        },
+        {
+            "term": "Promise.all()",
+            "description": "A method that takes an array of promises and returns a single promise that resolves when all of the promises in the array have resolved."
+        },
+        {
+            "term": "fs.promises",
+            "description": "A module in Node.js that provides promise-based versions of the file system methods."
+        },
+        {
+            "term": "Promise.race()",
+            "description": "A method that takes an array of promises and returns a single promise that resolves or rejects as soon as one of the promises in the array resolves or rejects."
+        },
+        {
+            "term": "Promise.resolve()",
+            "description": "A method that returns a promise that is resolved with a given value."
+        },
+        {
+            "term": "Promise.reject()",
+            "description": "A method that returns a promise that is rejected with a given reason."
+        },
+        {
+            "term": "setImmediate()",
+            "description": "A Node.js function that schedules a callback to be executed on the next iteration of the event loop, after I/O events."
+        },
+        {
+            "term": "setTimeout()",
+            "description": "A function that schedules a callback to be executed after a specified delay."
+        },
+        {
+            "term": "setInterval()",
+            "description": "A function that repeatedly schedules a callback to be executed at specified intervals."
+        },
+        {
+            "term": "Non-blocking I/O",
+            "description": "A programming paradigm that allows other operations to continue before the previous operation completes, improving performance and responsiveness."
+            },
+            {
+                "term": "EventEmitter",
+                "description": "A class in Node.js that allows objects to emit and listen for events."
+            },
+            {
+                "term": "fetch() or axios",
+                "description": "Methods used to make asynchronous HTTP requests in JavaScript."
+            },
+            {
+                "term": "Timers",
+                "description": "Functions like setTimeout and setInterval that allow scheduling of code execution after a delay or at regular intervals."
+            },
+            {
+                "term": "Asynchronous Iteration",
+                "description": "A way to iterate over data that is fetched asynchronously, using constructs like for await...of."
+            },
+            {
+                "term": "Event-driven Programming",
+                "description": "A programming paradigm where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs."
+            },
+            {
+                "term": "Promise Chaining",
+                "description": "The process of linking multiple promises together, where the output of one promise is passed as input to the next."
+            },
+            {
+                "term": "Async Generators",
+                "description": "Functions that can yield multiple values over time, allowing for asynchronous data streams."
+            },
+            {
+                "term":".then(), .catch(), .finally()",
+                "description": "Methods used to handle the resolution or rejection of a promise, and to execute code regardless of the promise's outcome.",
+                "details": "1. .then()- Method to handle resolved promise. 2. .catch()- Method to handle rejected promise. 3. .finally()- Method to execute code after promise is settled, regardless of outcome."
+            }
+    ],
+    "Database Concepts": [
+        {
+            "term": "Normalization",
+            "description": "The process of organizing data in a database to reduce redundancy and improve data integrity."
+        },
+        {
+            "term": "Indexing",
+            "description": "A database optimization technique that improves the speed of data retrieval operations by creating a data structure that allows for faster searches."
+        },
+        {
+            "term": "ACID Properties",
+            "description": "A set of properties (Atomicity, Consistency, Isolation, Durability) that guarantee reliable processing of database transactions."
+        },
+        {
+            "term": "Joins",
+            "description": "A SQL operation that combines rows from two or more tables based on a related column between them."
+        },
+        {
+            "term": "Transactions",
+            "description": "A sequence of database operations that are treated as a single unit of work, ensuring that either all operations succeed or none do."
+        },
+        {
+            "term": "Schema",
+            "description": "The structure of a database, including the tables, columns, data types, and relationships between tables."
+        },
+        {
+            "term": "NoSQL vs SQL Databases",
+            "description": "SQL databases are relational and use structured query language for defining and manipulating data, while NoSQL databases are non-relational and can store unstructured or semi-structured data."
+        },
+        {
+            "term": "Foreign Key",
+            "description": "A field in one table that uniquely identifies a row in another table, establishing a relationship between the two tables."
+        },
+        {
+            "term": "Primary Key",
+            "description": "A unique identifier for each record in a database table."
+        },
+        {
+            "term": "Data Modeling",
+            "description": "The process of creating a visual representation of the data structures and relationships within a database."
+        }
+    ],
+    "Database functions": [
+        {
+            "function":"CREATE",
+            "description":"Creates a new table or database."
+        },
+        {
+            "function": "SELECT",
+            "description": "Retrieves data from a database."
+        },
+        {
+            "function": "INSERT",
+            "description": "Adds new data to a database."
+        },
+        {
+            "function": "UPDATE",
+            "description": "Modifies existing data in a database."
+        },
+        {
+            "function": "DELETE",
+            "description": "Removes data from a database."
+        },
+        {
+            "function": "JOIN",
+            "description": "Combines rows from two or more tables based on a related column between them."
+        },
+        {
+            "function": "WHERE",
+            "description": "Filters records based on specified conditions."
+        },
+        {
+            "function": "GROUP BY",
+            "description": "Groups rows that have the same values in specified columns into summary rows."
+        },
+        {
+            "function": "ORDER BY",
+            "description": "Sorts the result set of a query by one or more columns."
+        },
+        {
+            "function": "HAVING",
+            "description": "Filters groups of records created by the GROUP BY clause based on specified conditions."
+        },
+        {
+            "function": "COUNT()",
+            "description": "Returns the number of rows that match a specified condition."
+        }
+    ],
+    "OOP concepts": [
+        {
+            "concept": "Encapsulation",
+            "description": "The bundling of data and methods that operate on that data within a single unit, typically a class, to restrict direct access to some of the object's components.",
+            "Example": "Using private variables and public getter/setter methods to control access to an object's data."
+        },
+        {
+            "concept": "Inheritance",
+            "description": "A mechanism by which one class can inherit properties and methods from another class, promoting code reusability.",
+            "Example": "A 'Car' class inheriting from a 'Vehicle' class, gaining its attributes and behaviors."
+        },
+        {
+            "concept": "Polymorphism",
+            "description": "The ability of different classes to be treated as instances of the same class through a common interface, allowing for methods to be used interchangeably.",
+            "Example": "A function that takes a 'Shape' object and can work with 'Circle', 'Square', or 'Triangle' objects, each implementing a 'draw()' method."
+        },
+        {
+            "concept": "Abstraction",
+            "description": "The process of simplifying complex systems by modeling classes based on the essential properties and behaviors an object should have, while hiding unnecessary details.",
+            "Example": "A 'Database' class that provides methods for connecting and querying, without exposing the underlying implementation details."
+        },
+        {
+            "concept": "Class",
+            "description": "A blueprint for creating objects that defines properties and methods.",
+            "Example": "A 'Car' class that defines properties like 'color' and 'model', and methods like 'startEngine()'."
+        },
+        {
+            "concept": "Object",
+            "description": "An instance of a class that contains data and behavior defined by the class.",
+            "Example": "An object 'myCar' created from the 'Car' class with specific values for its properties."
+        },
+        {
+            "concept": "Method",
+            "description": "A function defined within a class that operates on the data contained in the object.",
+            "Example": "The 'startEngine()' method in the 'Car' class that operates on the car's data."
+        },
+        {
+            "concept": "Constructor",
+            "description": "A special method used to initialize new objects created from a class.",
+            "Example": "A constructor in the 'Car' class that sets the initial values for 'color' and 'model' when a new car object is created."
+        },
+        {
+            "concept": "Interface",
+            "description": "A contract that defines a set of methods that implementing classes must provide.",
+            "Example": "An 'Animal' interface that requires implementing classes to define a 'makeSound()' method."
+        },
+        {
+            "concept": "Composition",
+            "description": "A design principle where objects are composed of other objects, allowing for complex behaviors by combining simpler ones.",
+            "Example": "A 'Car' class that contains an 'Engine' object, allowing the car to use the engine's functionality."
+        },
+        {
+            "concept": "Private and Public Access Modifiers",
+            "description": "Keywords that control the visibility and accessibility of class members (properties and methods). 'Private' members are only accessible within the class, while 'Public' members are accessible from outside the class.",
+            "Example": "Using 'private' to restrict access to a class's internal data and 'public' to expose methods for interacting with that data."
+        },
+        {
+            "concept": "Public and Private classes",
+            "description": "Classes can be declared as public or private to control their accessibility. Public classes can be accessed from other classes, while private classes are restricted to the scope in which they are defined.",
+            "Example": "A public class 'Car' that can be instantiated from other classes, and a private class 'Engine' that is only used within the 'Car' class."
+        }
+    ],
+    "Error handling terms": [
+        {
+            "term": "Try/Catch",
+            "description": "A block of code that allows you to test a section of code for errors (try) and handle the error if one occurs (catch)."
+        },
+        {
+            "term": "Throw",
+            "description": "A statement used to create a custom error and pass it to the catch block."
+        },
+        {
+            "term": "Finally",
+            "description": "A block of code that will always execute after the try and catch blocks, regardless of whether an error occurred or not."
+        },
+        {
+            "term": "Error Object",
+            "description": "An object that contains information about an error that has occurred, including its name, message, and stack trace."
+        },
+        {
+            "term": "Custom Error",
+            "description": "A user-defined error type that extends the built-in Error object to provide more specific error handling."
+        }
+    ],
+    "Common error types": [
+        {
+            "type": "SyntaxError",
+            "description": "An error that occurs when there is a mistake in the syntax of the code."
+        },
+        {
+            "type": "ReferenceError",
+            "description": "An error that occurs when a variable or function is not defined."
+        },
+        {
+            "type": "TypeError",
+            "description": "An error that occurs when a value is not of the expected type."
+        },
+        {
+            "type": "RangeError",
+            "description": "An error that occurs when a value is not within the allowed range."
+        },
+        {
+            "type": "URIError",
+            "description": "An error that occurs when there is an issue with encoding or decoding a URI."
+        }
+    ],
+    "Common error messages": [
+        {
+            "message": "Uncaught ReferenceError: variable is not defined",
+            "description": "Indicates that a variable or function is being used before it has been declared."
+        },
+        {
+            "message": "Uncaught TypeError: cannot read property 'property' of undefined",
+            "description": "Indicates that an attempt was made to access a property of an undefined value."
+        },
+        {
+            "message": "Uncaught SyntaxError: unexpected token",
+            "description": "Indicates that there is a syntax error in the code, such as a missing bracket or comma."
+        },
+        {
+            "message": "Uncaught RangeError: maximum call stack size exceeded",
+            "description": "Indicates that a function has been called too many times recursively, leading to a stack overflow."
+        },
+        {
+            "message": "Uncaught URIError: malformed URI sequence",
+            "description": "Indicates that there is an issue with encoding or decoding a URI, such as an invalid character."
+        }
+    ],
+    "Common debugging techniques": [
+        {
+            "technique": "Console Logging",
+            "description": "Using console.log() statements to output variable values and program flow to the console for inspection."
+        },
+        {
+            "technique": "Breakpoints",
+            "description": "Setting breakpoints in the code using a debugger to pause execution and inspect the state of the application at specific points."
+        },
+        {
+            "technique": "Step Through Code",
+            "description": "Using a debugger to step through code line by line to observe how the program state changes."
+        },
+        {
+            "technique": "Inspecting Variables",
+            "description": "Using debugging tools to examine the values of variables and objects at different points in the code."
+        },
+        {
+            "technique": "Call Stack Analysis",
+            "description": "Examining the call stack in a debugger to trace the sequence of function calls that led to an error."
+        }
+    ],
+    "Common algorithms used in the real world": [
+        {
+            "algorithm": "Binary Search",
+            "description": "A search algorithm that works on sorted arrays by repeatedly dividing the search interval in half."
+        },
+        {
+            "algorithm": "Quick Sort",
+            "description": "A divide-and-conquer sorting algorithm that selects a 'pivot' element and partitions the array around the pivot."
+        },
+        {
+            "algorithm": "Dijkstra's Algorithm",
+            "description": "An algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks."
+        },
+        {
+            "algorithm": "Merge Sort",
+            "description": "A divide-and-conquer sorting algorithm that divides the array into halves, sorts them, and then merges them back together."
+        },
+        {
+            "algorithm": "Breadth-First Search (BFS)",
+            "description": "An algorithm for traversing or searching tree or graph data structures, exploring all neighbors at the present depth before moving on to nodes at the next depth level."
+        },
+        {
+            "algorithm": "Depth-First Search (DFS)",
+            "description": "An algorithm for traversing or searching tree or graph data structures, exploring as far as possible along each branch before backtracking."
+        },
+        {
+            "algorithm": "Hashing",
+            "description": "A technique used to uniquely identify a specific object from a group of similar objects by converting data into a fixed-size string of characters, which is typically a hash code."
+        },
+        {
+            "algorithm": "Dynamic Programming",
+            "description": "A method for solving complex problems by breaking them down into simpler subproblems and storing the results of subproblems to avoid redundant computations."
+        },
+        {
+            "algorithm": "A* Search Algorithm",
+            "description": "An algorithm used in pathfinding and graph traversal that finds the shortest path from a start node to a target node using heuristics to improve efficiency."
+        },
+        {
+            "algorithm": "Fibonacci Sequence",
+            "description": "An algorithm that generates a sequence of numbers where each number is the sum of the two preceding ones, often used in recursive programming examples."
+        },
+        {
+            "algorithm": "Kruskal's Algorithm",
+            "description": "An algorithm used to find the minimum spanning tree for a connected weighted graph by adding edges in increasing order of weight, ensuring no cycles are formed."
+        },
+        {
+            "algorithm": "Tower of Hanoi",
+            "description": "A classic recursive algorithm that involves moving disks from one peg to another following specific rules."
+        }
+    ],
+    "Questions": [
+        {
+            "question 1": "What is Node.js and why is it used for backend development?",
+            "answer": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine that allows developers to run JavaScript on the server side. It is used for backend development because it is lightweight, efficient, and has a non-blocking I/O model, making it suitable for building scalable network applications."
+        },
+        {
+            "question 2": "Explain the concept of middleware in Express.js.",
+            "answer": "Middleware in Express.js refers to functions that have access to the request object (req), response object (res), and the next middleware function in the application's request-response cycle. Middleware functions can perform tasks such as executing code, modifying req and res objects, ending the request-response cycle, or calling the next middleware function."
+        },
+        {
+            "question 3": "What are RESTful APIs and how do they work?",
+            "answer": "RESTful APIs are web services that adhere to the principles of Representational State Transfer (REST). They use standard HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources identified by URLs. RESTful APIs are stateless, meaning each request from a client contains all the information needed to process the request."
+        },
+        {
+            "question 4": "How does asynchronous programming work in Node.js?",
+            "answer": "Asynchronous programming in Node.js allows multiple operations to be executed without blocking the main thread. It uses callbacks, promises, and async/await syntax to handle operations that take time to complete, such as I/O operations. This enables Node.js to handle many concurrent connections efficiently."
+        },
+        {
+            "question 5": "Why a JSON file cannot be executed as an exe file?",
+            "answer": "A JSON file is a data interchange format and does not contain executable code. It is a plain text file that stores structured data in key-value pairs. An executable file (exe) is a binary file that contains machine code that can be directly executed by the operating system. Therefore, a JSON file cannot be executed as an exe file because it lacks the necessary executable instructions."
+        },
+        {
+            "question 6": "What is the difference between SQL and NoSQL databases?",
+            "answer": "SQL databases are relational databases that use structured query language (SQL) for defining and manipulating data. They have a fixed schema and are suitable for complex queries and transactions. NoSQL databases, on the other hand, are non-relational databases that can store unstructured or semi-structured data. They offer flexibility in schema design and are often used for handling large volumes of data and real-time applications."
+        },
+        {
+            "question 7": "What are environment variables and why are they important in backend development?",
+            "answer": "Environment variables are key-value pairs that store configuration settings for an application. They are important in backend development because they allow developers to manage configuration settings without hardcoding them into the application's source code. This makes applications more flexible, secure, and easier to deploy across different environments (e.g., development, staging, production)."
+        },
+        {
+            "question 8": "how do you set an .env in python?",
+            "answer": "To set an .env file in Python, you typically use the `python-dotenv` package. First, install it using pip: `pip install python-dotenv`. Then, create a `.env` file in your project root directory with key-value pairs like `DATABASE_URL=your_database_url_here`. Finally, load the environment variables in your Python script using `from dotenv import load_dotenv; load_dotenv()`."
+        },
+        {
+            "question 9": "What is the difference between an agent, ai model and what are the procedures (step by step)  of setting up the two to work if individually as projects or combining them to harmoniously work together?",
+            "answer": "An AI model is a mathematical representation of a system that can learn patterns from data and make predictions or decisions. An agent is an entity that perceives its environment and takes actions to achieve specific goals. The procedures for setting up an AI model involve training it on relevant data, while setting up an agent involves defining its behavior, goals, and interaction with the environment. When combining them, the AI model can be integrated into the agent's decision-making process to enhance its capabilities."
+        },
+        {
+            "question 10": "What is CORS and why is it important in web development?",
+            "answer": "CORS (Cross-Origin Resource Sharing) is a security feature implemented by web browsers that restricts web pages from making requests to a different domain than the one that served the web page. It is important in web development because it helps prevent malicious websites from accessing sensitive data on other domains. CORS allows servers to specify who can access their resources and which HTTP methods are allowed."
+        },
+        {
+            "question 11": "What is an algorithm?",
+            "answer": "An algorithm is a step-by-step set of instructions designed to perform a specific task or solve a particular problem. In computer science, algorithms are used to define the logic and flow of operations in software applications."
+        },
+        {
+            "question 12": "What are data structures?",
+            "answer": "Data structures are ways of organizing and storing data in a computer so that it can be accessed and modified efficiently. Common data structures include arrays, linked lists, stacks, queues, trees, and hash tables."
+        },
+        {
+            "question 13": "What is the difference between synchronous and asynchronous programming?",
+            "answer": "Synchronous programming executes tasks sequentially, meaning each task must complete before the next one begins. Asynchronous programming allows tasks to run concurrently, enabling other tasks to proceed without waiting for previous ones to finish. This is particularly useful for I/O operations, improving performance and responsiveness."
+        },
+        {
+            "question 14": "What is REST and how does it differ from SOAP?",
+            "answer": "REST (Representational State Transfer) is an architectural style for designing networked applications that use standard HTTP methods and stateless communication. SOAP (Simple Object Access Protocol) is a protocol for exchanging structured information in web services using XML. REST is generally simpler, more flexible, and easier to use than SOAP, which is more rigid and requires more overhead."
+        },
+        {
+            "question 15": "What is a cache?",
+            "answer": "A cache is a temporary storage area that holds frequently accessed data or resources to improve performance and reduce latency. By storing copies of data in a cache, applications can quickly retrieve information without having to repeatedly access the original source, such as a database or external API."
+        },
+        {
+            "question 16": "what is a cookie and should i allow cookies whenever i visit new websites?",
+            "answer": "A cookie is a small piece of data that a website stores on your device to remember information about you, such as login status or preferences. Whether you should allow cookies depends on your privacy preferences and the website's purpose. Generally, allowing cookies improves user experience by remembering settings and preferences, but it may also raise privacy concerns."
+        },
+    {
+            "question 17": "What IS CRUD and some operations performed on it, mostly when it comes to databases?",
+            "answer": "CRUD stands for Create, Read, Update, and Delete, which are the four basic operations performed on data in a database. Create refers to adding new records, Read involves retrieving existing records, Update is modifying existing records, and Delete is removing records from the database."
+    },
+    {
+            "question 18": "What is the difference btw using SQL and Postgres and what is the difference btw relational and non-relational databases?",
+            "answer": "SQL is a standard language for managing and manipulating relational databases, while Postgres (PostgreSQL) is an open-source relational database management system that supports SQL. Relational databases store data in tables with defined relationships, whereas non-relational (NoSQL) databases store data in various formats like documents, key-value pairs, or graphs."
+        },
+        {
+            "question 19": "What is serialization and deserialization in programming?",
+            "answer": "Serialization is the process of converting a data structure or object into a format that can be easily stored or transmitted, such as JSON or XML. Deserialization is the reverse process of converting the serialized data back into its original data structure or object form. This is commonly used for data exchange between different systems or for saving data to files."
+        },
+        {
+            "question 20": "What is deserialization?",
+            "answer": "Deserialization is the process of converting serialized data back into its original data structure or object form. It allows programs to reconstruct objects from a format suitable for storage or transmission, such as JSON or XML."
+        },
+        {
+            "question 21": "What is serialization?",
+            "answer": "Serialization is the process of converting a data structure or object into a format that can be easily stored or transmitted, such as JSON or XML. This allows for data to be saved to files or sent over networks."
+        },
+        {
+            "question 22": "What is JSON parsing?",
+            "answer": "JSON parsing is the process of converting a JSON-formatted string into a data structure or object that can be easily manipulated within a programming language. This allows developers to work with the data contained in the JSON format."
+        },
+        {
+            "question 23": "What is JSON stringifying?",
+            "answer": "JSON stringifying is the process of converting a data structure or object into a JSON-formatted string. This is useful for storing or transmitting data in a standardized format that can be easily shared between different systems."
+        },
+        {
+            "question 24": "What is JSON serialization?",
+            "answer": "JSON serialization is the process of converting a data structure or object into a JSON-formatted string for storage or transmission."
+        },
+        {
+            "question 25": "What is JSON deserialization?",
+            "answer": "JSON deserialization is the process of converting a JSON-formatted string back into a data structure or object."
+        },
+        {
+            "question 26": "What is parsing?",
+            "answer": "Parsing is the process of analyzing a string of symbols, either in natural language or computer languages, to determine its grammatical structure with respect to a given formal grammar."
+        },
+        {
+            "question 27": "What is stringifying?",
+            "answer": "Stringifying is the process of converting an object or data structure into a string format, often for storage or transmission."
+        },
+        {
+            "question 28": "When we say an object is an instance of a class, what do we mean, especially that term \"instance\"?",
+            "answer": "An instance of a class is a specific object created from that class. The term \"instance\" refers to a concrete occurrence of a class. For example, if you have a class called 'Car', an instance of that class would be a specific car object, like 'myCar'. Each instance has its own unique properties and behaviors defined by the class."
+        },
+        {
+            "question 29": "What is the difference btw encapsulation (in this concept explain in details what the term bundling of data mean) and abstraction giving simple examples?",
+            "answer": {"encapsulation": "Encapsulation is the bundling of data (attributes) and methods (functions) that operate on that data into a single unit, typically a class. This restricts direct access to some of the object's components, which helps prevent unintended interference and misuse of the data. For example, in a 'BankAccount' class, the account balance is encapsulated, and access to it is controlled through methods like 'deposit()' and 'withdraw()'.",
+                        "abstraction": "Abstraction, on the other hand, is the process of simplifying complex systems by modeling classes based on the essential properties and behaviors an object should have, while hiding unnecessary details. For example, a 'Car' class may provide methods like 'startEngine()' and 'drive()', without exposing the complex internal workings of the engine to the user."
+                        }
+        },
+        {
+            "question 30": "A route is a URL pattern that maps to a handler function. Simplify this logic,explaining what the term handler function is and also explain what route params are with simple examples?",
+            "answer": "A handler function is a function that is executed when a specific route is accessed. For example, in Express.js, a route like '/users/:id' might have a handler function that retrieves user data for the given ID. Route parameters are named URL segments that capture values from the URL path. In the example '/users/123', '123' is captured as the value of the ':id' parameter."
+        },
+        {
+            "question 31": "What is the purpose of using nodemon in a Node.js project?",
+            "answer": "Nodemon is a development tool that automatically restarts a Node.js application whenever it detects changes in the source code files. This improves developer productivity by eliminating the need to manually stop and restart the server after making code changes."
+        },
+        {
+            "question 32": "What is the difference between a GET and POST request?",
+            "answer": "A GET request is used to retrieve data from a server and should not have any side effects. It appends data to the URL as query parameters. A POST request, on the other hand, is used to send data to the server to create or update resources. The data is included in the body of the request, making it more secure for sensitive information."
+        },
+        {
+            "question 33": "How do you handle errors in an Express.js application?",
+            "answer": "In an Express.js application, errors can be handled using middleware functions. You can define an error-handling middleware by specifying four parameters: (err, req, res, next). This middleware can catch errors that occur in the application and send appropriate responses to the client."
+        },
+        {
+            "question 34": "What is the purpose of using environment variables in a Node.js application?",
+            "answer": "Environment variables are used to store configuration settings and sensitive information, such as database connection strings and API keys, outside of the source code. This allows for easier management of different configurations for development, testing, and production environments, and enhances security by keeping sensitive data out of the codebase."
+        },
+        {
+            "question 35": "What does render mean in express?",
+            "answer": "In Express.js, 'render' refers to the process of generating HTML content from a template file and sending it as a response to the client. This is typically done using a templating engine, such as EJS or Pug, which allows you to create dynamic web pages by embedding JavaScript code within the HTML structure."
+        }
+    ]
+}
