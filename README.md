@@ -1,2 +1,1 @@
-# Backend-project-1.0
-Combining JS +Node.js functionality with express framework 
+This is a Headless API. It is designed to serve data in JSON format, making it compatible with any frontend framework like React, Vue, or even mobile apps.
